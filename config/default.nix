@@ -8,7 +8,13 @@
     ./lsp 
   ];
 	
-  colorschemes.catppuccin.enable = true;
+  colorschemes.catppuccin = {
+    enable = true;
+    settings = {
+      transparent_background = true;
+    };
+  };
+
   plugins = {
     web-devicons.enable = true;
     vim-be-good.enable = true;
