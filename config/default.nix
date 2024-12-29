@@ -1,6 +1,7 @@
 {
   # Import all your configuration modules here
-  imports = [ 
+  imports = [
+    ./options.nix
     ./bufferline.nix 
     ./cmp.nix
     ./telescope.nix
