@@ -6,7 +6,8 @@
     ./cmp.nix
     ./telescope.nix
     ./treesitter.nix
- 
+    ./neo-tree.nix
+
     ./lsp 
   ];
 	
