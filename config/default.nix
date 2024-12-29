@@ -2,11 +2,8 @@
   # Import all your configuration modules here
   imports = [
     ./options.nix
-    ./bufferline.nix 
-    ./cmp.nix
-    ./telescope.nix
-    ./treesitter.nix
-    ./neo-tree.nix
+
+    ./plugins
 
     ./lsp 
   ];
@@ -21,4 +18,14 @@
   };
 
   globals.mapleader = " ";
+
+  keymaps = [
+    {
+      action = ":Neotree filesystem reveal left<CR>";
+      key = "<C-n>";
+      options = {
+        silent = true;
+      };
+    }
+  ];
 }
