@@ -13,6 +13,7 @@
   colorschemes.catppuccin.enable = true;  
 
   plugins = {
+    lualine.enable = true;
     web-devicons.enable = true;
     vim-be-good.enable = true;
     transparent.enable = true;
