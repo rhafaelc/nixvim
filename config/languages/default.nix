@@ -1,5 +1,7 @@
 {
   imports = [
+    ./debugging.nix
+
     ./nix
     ./golang
     #     ./python

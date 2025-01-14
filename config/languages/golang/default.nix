@@ -1,6 +1,6 @@
 {
   imports = [
     ./language.nix
-    #    ./debugger.nix
+    ./debugging.nix
   ];
 }
