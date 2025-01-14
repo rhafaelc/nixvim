@@ -4,31 +4,34 @@
 
     ./plugins
 
-    ./lsp 
+    ./languages
   ];
 
   globals.mapleader = " ";
 
   keymaps = [
     {
-      action = ":Explore<CR>";
       key = "<leader>pv";
+      action = ":Explore<CR>";
+      options = {
+        silent = true;
+      };
     }
     {
-      action = ":wincmd h<CR>";
       key = "<c-h>";
+      action = ":wincmd h<CR>";
     }
     {
-      action = ":wincmd j<CR>";
       key = "<c-j>";
+      action = ":wincmd j<CR>";
     }
     {
-      action = ":wincmd k<CR>";
       key = "<c-k>";
+      action = ":wincmd k<CR>";
     }
     {
-      action = ":wincmd l<CR>";
       key = "<c-l>";
+      action = ":wincmd l<CR>";
     }
   ];
 }
