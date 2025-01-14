@@ -1,15 +1,14 @@
 {
   imports = [
     ./catppuccin.nix
-    ./lualine.nix
     ./web-devicons.nix
     ./transparent.nix
+    ./lualine.nix
     ./vim-be-good.nix
 
-    ./bufferline.nix
     ./cmp.nix
-    ./neo-tree.nix
     ./telescope.nix
     ./treesitter.nix
+    ./tmux-navigator.nix
   ];
 }

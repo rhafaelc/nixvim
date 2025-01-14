@@ -1,5 +1,4 @@
 {
-  # Import all your configuration modules here
   imports = [
     ./options.nix
 
@@ -8,20 +7,28 @@
     ./lsp 
   ];
 
-  clipboard = {
-    register = "unnamedplus";
-    providers.wl-copy.enable = true;
-  };
-
   globals.mapleader = " ";
 
   keymaps = [
     {
-      action = ":Neotree filesystem reveal left<CR>";
-      key = "<C-n>";
-      options = {
-        silent = true;
-      };
+      action = ":Explore<CR>";
+      key = "<leader>pv";
+    }
+    {
+      action = ":wincmd h<CR>";
+      key = "<c-h>";
+    }
+    {
+      action = ":wincmd j<CR>";
+      key = "<c-j>";
+    }
+    {
+      action = ":wincmd k<CR>";
+      key = "<c-k>";
+    }
+    {
+      action = ":wincmd l<CR>";
+      key = "<c-l>";
     }
   ];
 }

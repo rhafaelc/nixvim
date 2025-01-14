@@ -2,12 +2,16 @@
   pkgs,
   ...
 }: {
+
+    imports = [
+        ./nix
+    #     ./golang
+    #     ./python
+    #     ./javascript
+    ];
+
   plugins.lsp = {
     enable = true;
-    servers = {
-      ts_ls.enable = true;
-      lua_ls.enable = true;
-    };
     keymaps = {
       diagnostic = {
         "<leader>j" = "goto_next";

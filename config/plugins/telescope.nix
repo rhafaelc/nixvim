@@ -10,6 +10,7 @@
         };
       };
       "<leader>fg" = "live_grep";
+      "<leader>ff" = "find_files";
     };
   };
 }
