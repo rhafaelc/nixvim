@@ -1,6 +1,8 @@
 {
   plugins.telescope = {
     enable = true;
+    
+    extensions.ui-select.enable = true;
 
     keymaps = {
       "<C-p>" = {
