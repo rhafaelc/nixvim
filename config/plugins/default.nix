@@ -10,5 +10,6 @@
     ./telescope.nix
     ./treesitter.nix
     ./tmux-navigator.nix
+    ./gitsigns.nix
   ];
 }

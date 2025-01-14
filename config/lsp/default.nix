@@ -1,7 +1,7 @@
 {
   imports = [
     ./nix
-    #     ./golang
+    ./golang
     #     ./python
     #     ./javascript
   ];
