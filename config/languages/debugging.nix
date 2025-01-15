@@ -19,14 +19,14 @@
   keymaps = [
     {
       key = "<leader>db";
-      action = ":DapToggleBreakpoint<cr>";
+      action = "<cmd>DapToggleBreakpoint<cr>";
       options = {
         silent = true;
       };
     }
     {
       key = "<leader>dc";
-      action = ":DapContinue<cr>";
+      action = "<cmd>DapContinue<cr>";
       options = {
         silent = true;
       };

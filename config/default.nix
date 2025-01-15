@@ -12,26 +12,26 @@
   keymaps = [
     {
       key = "<leader>pv";
-      action = ":Explore<CR>";
+      action = "<cmd>Explore<CR>";
       options = {
         silent = true;
       };
     }
     {
       key = "<c-h>";
-      action = ":wincmd h<CR>";
+      action = "<cmd>wincmd h<CR>";
     }
     {
       key = "<c-j>";
-      action = ":wincmd j<CR>";
+      action = "<cmd>wincmd j<CR>";
     }
     {
       key = "<c-k>";
-      action = ":wincmd k<CR>";
+      action = "<cmd>wincmd k<CR>";
     }
     {
       key = "<c-l>";
-      action = ":wincmd l<CR>";
+      action = "<cmd>wincmd l<CR>";
     }
   ];
 }
