@@ -11,5 +11,6 @@
     ./treesitter.nix
     ./tmux-navigator.nix
     ./gitsigns.nix
+    ./indent-blankline.nix
   ];
 }
