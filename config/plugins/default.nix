@@ -12,5 +12,6 @@
     ./tmux-navigator.nix
     ./gitsigns.nix
     ./indent-blankline.nix
+    ./illuminate.nix
   ];
 }
