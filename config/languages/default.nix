@@ -4,8 +4,8 @@
 
     ./nix
     ./golang
-    #     ./python
-    #     ./javascript
+    ./python
+    ./js-ts
   ];
   plugins = {
     lsp = {
