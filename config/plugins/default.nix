@@ -13,5 +13,6 @@
     ./gitsigns.nix
     ./indent-blankline.nix
     ./illuminate.nix
+    ./wakatime.nix
   ];
 }
