@@ -33,5 +33,15 @@
       key = "<c-l>";
       action = "<cmd>wincmd l<CR>";
     }
+    {
+      mode = "n";
+      key = "<Right>";
+      action = ">>";
+    }
+    {
+      mode = "n";
+      key = "<Left>";
+      action = "<<";
+    }
   ];
 }
