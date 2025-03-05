@@ -15,6 +15,6 @@
     ./illuminate.nix
     ./wakatime.nix
 
-    ./autoclose.nix
+    ./autopairs.nix
   ];
 }
