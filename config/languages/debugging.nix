@@ -1,14 +1,14 @@
 {
   plugins = {
+    dap-virtual-text = {enable = true;};
+    dap-ui = {
+      enable = true;
+      settings = {
+        floating.mappings = {close = ["<ESC>" "q"];};
+      };
+    };
     dap = {
       enable = true;
-      extensions = {
-        dap-ui = {
-          enable = true;
-          floating.mappings = {close = ["<ESC>" "q"];};
-        };
-        dap-virtual-text = {enable = true;};
-      };
     };
   };
   extraConfigLua = ''
