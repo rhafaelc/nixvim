@@ -11,6 +11,13 @@
 
   keymaps = [
     {
+      key = "<leader>r";
+      action = "<cmd>LspRestart<CR>";
+      options = {
+        silent = true;
+      };
+    }
+    {
       key = "<leader>pv";
       action = "<cmd>Explore<CR>";
       options = {
