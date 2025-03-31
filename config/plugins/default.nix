@@ -17,6 +17,6 @@
     ./wakatime.nix
 
     ./autopairs.nix
-    ./auto-save.nix
+    # ./auto-save.nix
   ];
 }
