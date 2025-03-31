@@ -5,6 +5,7 @@
     ./transparent.nix
     ./lualine.nix
     ./vim-be-good.nix
+    ./dadbod.nix
 
     ./cmp.nix
     ./telescope.nix
