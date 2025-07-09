@@ -13,7 +13,7 @@
         jedi.enabled = true;
         mccabe.enabled = true;
         pycodestyle.enabled = true;
-        pydocstyle.enabled = true;
+        pydocstyle.enabled = false;
         pyflakes.enabled = true;
         pylint.enabled = true;
         rope.enabled = true;
