@@ -1,5 +1,9 @@
 # rhafaelc's nixvim Config
 
+```bash
+nix run github:rhafaelc/nixvim
+```
+
 ## Configuring
 
 To start configuring, just add or modify the nix files in `./config`.
